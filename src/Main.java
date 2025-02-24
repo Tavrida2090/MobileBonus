@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a = 100; //начальный счет
-        int b = 1001; //сумма полонение
+        int account = 90; //начальный счет
+        int payment = 1110; //сумма полонение
         int bonus;
-        if (b >= 1000) {
-            bonus = b / 100;
+        if (payment >= 1000) {
+            bonus = payment / 100;
         } else {
             bonus = 0;
         }
-        int summa = a + b + bonus;
+        int summa = account + payment + bonus;
         System.out.println(summa);
     }
 }
